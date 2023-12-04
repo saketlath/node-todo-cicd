@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label "dev-server-agent"}
      
     stages{
         
